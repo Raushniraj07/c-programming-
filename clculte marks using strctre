@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	float python,C,maths,phy,sum,avg,tmarks;
+	printf("enter the marks in python:");
+	scanf("%f",&python);
+	printf("enter marks in C:");
+	scanf("%f",&C);
+	printf("enter the marks in maths:");
+	scanf("%f",&maths);
+	printf("enter the marks in phy:");
+	scanf("%f",&phy);
+	tmarks=python+C+maths+phy;
+	printf("Total marks=%f\n",tmarks);
+	avg=(tmarks/4);
+	printf("agreegate=%.2f\n",avg);
+	if(avg>75){
+		printf("distinct");
+	}
+	else if(avg<75 && avg>=60){
+		printf("DIVISION");
+	}
+	else if(avg<60&& avg>=50){
+		printf("SECOND DIVION");
+   	}
+	else if(avg>=40 && avg<50){
+		printf("THIRD DIVION");
+	}
+	else{
+		printf("FAIL");
+	}
+	return 0;
+}
