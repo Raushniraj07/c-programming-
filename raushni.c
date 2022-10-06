@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+    int a = 5;
+    int b = 6;
+    int add = a+b;
+    printf("Hi Handsome,Addition od A and B is %d: ",add);
+    return 0;
+}
